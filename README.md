@@ -10,7 +10,7 @@ For details on the project, methodology and results, please refer to the report.
 
 After cloning the repository or downloading the source code, you can generate your own results. Here is the syntax to use : 
 
-```
+```python
 python ./main.py MODEL
 # or 
 python ./main-parallel.py MODELx
