@@ -10,9 +10,10 @@ For details on the project, methodology and results, please refer to the report.
 
 After cloning the repository or downloading the source code, you can generate your own results. Here is the syntax to use : 
 
-'''
+```
 python ./main.py MODEL
-'''
+```
+
 By MODEL we actually mean one of these strings  : {TEACHER, DIPLOMAT, CIRCLE}. 
 
 *main.py* runs the weight optimization for MODEL, the social learning task and saves 3 figures (that you can find in our report) and a *.npy* file containing all the variables computed during the run (for further use, optimization or visualization). 
@@ -21,8 +22,8 @@ Note : We suggest using main.py only on TEACHER. For DIPLOMAT and CIRCLE, becaus
 
 To complete the simulation or save further figures, the single npy file (for main.py) or the 10 intermediate npy files (for main_parallel.py) have to be placed in a single, eponym, directory (ie. CIRCLE) and then run : 
 
-'''
+```
 python ./main_viz.py MODEL
-'''
+```
 
 Please refer to the source code for further details on the implementation : the reader might have to rename some files to make the parallel computation work. 
