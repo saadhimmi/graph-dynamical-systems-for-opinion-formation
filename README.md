@@ -10,7 +10,7 @@ For details on the project, methodology and results, please refer to the report.
 
 After cloning the repository or downloading the source code, you can generate your own results. Here is the syntax to use : 
 
-```python
+```bash
 python ./main.py MODEL
 # or 
 python ./main-parallel.py MODELx
@@ -24,7 +24,7 @@ Note : We suggest using main.py only on TEACHER. For DIPLOMAT and CIRCLE, becaus
 
 To complete the simulation or save further figures, the single npy file (for main.py) or the 10 intermediate npy files (for main_parallel.py) have to be placed in a single, eponym, directory (ie. CIRCLE) and then run : 
 
-```
+```python
 python ./main_viz.py MODEL
 ```
 
