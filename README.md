@@ -12,6 +12,8 @@ After cloning the repository or downloading the source code, you can generate yo
 
 ```
 python ./main.py MODEL
+# or 
+python ./main-parallel.py MODELx
 ```
 
 By MODEL we actually mean one of these strings  : {TEACHER, DIPLOMAT, CIRCLE}. 
